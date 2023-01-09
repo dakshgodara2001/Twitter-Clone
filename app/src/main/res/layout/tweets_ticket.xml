@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:background="@color/whitebackground"
+    android:layoutDirection="rtl"
+    android:textAlignment="center"
+
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/background"
+        android:gravity="center"
+        android:layoutDirection="rtl"
+        android:orientation="vertical"
+        android:paddingTop="2dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="2dp"
+        android:textAlignment="center"
+
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@drawable/background"
+            android:gravity="center"
+            android:layoutDirection="ltr"
+            android:orientation="horizontal"
+
+            android:paddingLeft="3dp"
+            android:paddingTop="1dp"
+            android:paddingRight="3dp"
+
+            android:paddingBottom="1dp"
+            android:textAlignment="center">
+
+            <ImageView
+                android:id="@+id/picture_path"
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:layout_alignBottom="@+id/txtflollower"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_weight="0"
+
+
+                android:src="@drawable/persoicon" />
+
+            <TextView
+                android:id="@+id/txtUserName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/webView"
+                android:layout_toEndOf="@+id/bulogin"
+                android:layout_toRightOf="@+id/bulogin"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="left"
+                android:paddingLeft="5dp"
+                android:paddingRight="3dp"
+                android:text="User name"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#0894f8"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_tweet_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:background="@color/white"
+                android:paddingEnd="1dp"
+                android:text="2021-12-11"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+
+                android:textSize="10dp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_tweet"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/webView"
+            android:layout_toEndOf="@+id/bulogin"
+            android:layout_toRightOf="@+id/bulogin"
+            android:background="@color/white"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="left"
+
+            android:paddingRight="5dp"
+            android:paddingBottom="2dp"
+            android:text="Love new twitter feathers, looking forword for new addation feather"
+            android:textAlignment="gravity"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#040101"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/tweet_picture"
+            android:layout_width="fill_parent"
+            android:layout_height="100pt"
+            android:layout_alignBottom="@+id/txtflollower"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="0"
+            android:adjustViewBounds="true"
+            android:background="@drawable/background"
+            android:scaleType="fitXY"
+            android:src="@drawable/tweets" />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background"
+            android:layoutDirection="ltr"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingTop="3dp"
+            android:paddingRight="3dp"
+            android:paddingBottom="5dp">
+
+            <ImageView
+
+                android:id="@+id/iv_share"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/ic_favorite_border_black_24dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
