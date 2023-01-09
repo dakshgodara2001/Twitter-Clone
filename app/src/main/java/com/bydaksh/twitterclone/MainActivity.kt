@@ -106,7 +106,7 @@ class MainActivity : AppCompatActivity() {
                 myView.txt_tweet.text = mytweet.tweetText
 
                 //myView.tweet_picture.setImageURI(mytweet.tweetImageURL)
-                Picasso.with(context).load(mytweet.tweetImageURL).into(myView.tweet_picture)
+                Picasso.get().load(mytweet.tweetImageURL).into(myView.tweet_picture)
 
 
                 myRef.child("Users").child(mytweet.tweetPersonUID!!)
@@ -122,7 +122,7 @@ class MainActivity : AppCompatActivity() {
 
                                     var userInfo= td[key] as String
                                     if(key.equals("ProfileImage")){
-                                        Picasso.with(context).load(userInfo).into(myView.picture_path)
+                                        Picasso.get().load(userInfo).into(myView.picture_path)
                                     }else{
                                         myView.txtUserName.text = userInfo
                                     }
