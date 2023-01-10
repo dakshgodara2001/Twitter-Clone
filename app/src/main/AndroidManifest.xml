@@ -15,9 +15,10 @@
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="YOUR_ADMOB_APP_ID"/>
+            android:value="ca-app-pub-1590717442458496/6006036965"/>
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:exported="true">
 
         </activity>
         <activity android:name=".Login"

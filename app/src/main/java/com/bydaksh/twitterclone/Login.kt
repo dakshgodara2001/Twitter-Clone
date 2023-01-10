@@ -67,10 +67,10 @@ class Login : AppCompatActivity() {
     }
 
     fun SaveImageInFirebase(){
-        var currentUser =mAuth!!.currentUser
+        val currentUser =mAuth!!.currentUser
         val email:String=currentUser!!.email.toString()
         val storage=FirebaseStorage.getInstance()
-        val storgaRef=storage.getReferenceFromUrl("gs://gameudemy.appspot.com")
+        val storgaRef=storage.getReferenceFromUrl("gs://twitterclone-b7b40.appspot.com")
         val df=SimpleDateFormat("ddMMyyHHmmss")
         val dataobj=Date()
         val imagePath= SplitString(email) + "."+ df.format(dataobj)+ ".jpg"
