@@ -7,7 +7,6 @@ Welcome to the Twitter Clone Android application! This application is a clone of
  <img src="https://github.com/dakshgodara2001/Twitter-Clone/blob/main/images/Screen%20Shot%202023-01-10%20at%206.56.37%20PM.png" width="200" style="margin: 0 20px;">
  <img src="https://github.com/dakshgodara2001/Twitter-Clone/blob/main/images/Screen%20Shot%202023-01-10%20at%207.03.04%20PM.png" width="200" style="margin: 0 20px;">
  <img src="https://github.com/dakshgodara2001/Twitter-Clone/blob/main/images/Screen%20Shot%202023-01-10%20at%207.03.50%20PM.png" width="200" style="margin: 0 20px;">
- <img src="https://github.com/dakshgodara2001/Twitter-Clone/blob/main/images/Screen%20Shot%202023-01-10%20at%207.07.16%20PM.png" width="815" style="margin: 0 10px;">
 </p>
 
 ## Features
