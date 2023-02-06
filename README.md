@@ -2,7 +2,7 @@
 
 Welcome to the Twitter Clone Android application! This application is a clone of the popular social media platform, Twitter. It is built using Kotlin and is hosted on Firebase. The application allows users to create an account, log in, and post tweets, as well as view tweets from other users they follow.
 
-<p>
+<p align="center">
  <img src="https://github.com/dakshgodara2001/Twitter-Clone/blob/main/images/Screenshot_20230110_004700.png" width="200" style="margin: 0 20px;">
  <img src="https://github.com/dakshgodara2001/Twitter-Clone/blob/main/images/Screen%20Shot%202023-01-10%20at%206.56.37%20PM.png" width="200" style="margin: 0 20px;">
  <img src="https://github.com/dakshgodara2001/Twitter-Clone/blob/main/images/Screen%20Shot%202023-01-10%20at%207.03.04%20PM.png" width="200" style="margin: 0 20px;">
